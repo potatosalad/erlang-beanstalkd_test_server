@@ -1,0 +1,12 @@
+{application, beanstalkd_test_server, [
+    {description, "Test beanstalkd using native beanstalkd."},
+    {vsn, "0.0.1"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {beanstalkd_test_server_app, []}},
+    {env, []}
+]}.
